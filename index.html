@@ -5,10 +5,19 @@
         <link rel="stylesheet" href="style.css"/>
     </head>
     <body>
-        <h1 class = "red hidden" id="red-title">제목1</h1>
-        <h1 class = "red hidden" id="blue-title">제목2</h1>
-        <button id="btn">버튼</button>
-        <h2 class = "red">목차</h1>
+        <form id="login-form">
+            <input
+                type='text'
+                placeholder="what's your name?"
+                maxlength="15"
+                required
+            />
+            <input type="submit" value="log in"/>
+        </form>
+        <h1 id="hello"></h1>
+        <div id="clock"></div>
         <script src="app.js"></script>
+        <script src="login.js"></script>
+        <script src="clock.js"></script>
     </body>
 </html>
